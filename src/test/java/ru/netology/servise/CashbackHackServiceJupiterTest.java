@@ -41,7 +41,7 @@ public class CashbackHackServiceJupiterTest {
         service.remain(amount);
         int actual = service.remain(amount);
 
-        assertEquals(actual, expected);
+        assertEquals(expected, actual);
 
     }
 
@@ -54,7 +54,7 @@ public class CashbackHackServiceJupiterTest {
         service.remain(amount);
         int actual = service.remain(amount);
 
-        assertEquals(actual, expected);
+        assertEquals(expected, actual);
 
     }
 }
